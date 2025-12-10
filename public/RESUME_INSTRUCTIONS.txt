@@ -1,0 +1,12 @@
+RESUME SETUP INSTRUCTIONS
+=========================
+
+To add your resume to the portfolio:
+
+1. Save your resume as a PDF file named "resume.pdf"
+2. Place it in this public folder (same location as this file)
+3. The "View Resume" button on the homepage will open it in a new tab
+
+File path: public/resume.pdf
+
+Note: Make sure your resume is named exactly "resume.pdf" (all lowercase)

@@ -1,0 +1,27 @@
+HOW TO ADD YOUR PROFILE PHOTO
+==============================
+
+To display your profile photo on the homepage:
+
+1. Prepare your photo:
+   - Use a square image (recommended: 500x500 pixels or larger)
+   - Ensure good quality and proper lighting
+   - Crop the image to focus on your face
+
+2. Name your photo file as: profile-photo.jpg
+   (You can also use .png format, just update the file extension in Home.js)
+
+3. Place the photo in this folder (public folder)
+   Location: c:\Users\KOKUL M\OneDrive\Attachments\Desktop\Kokul_Portfolio\public\
+
+4. The photo will automatically appear on the homepage with a green circular border and animations
+
+Alternative formats supported:
+- profile-photo.png
+- profile-photo.jpeg
+
+If using a different format, update line 74 in src/pages/Home/Home.js:
+Change: src="/profile-photo.jpg"
+To: src="/profile-photo.png" (or your format)
+
+Note: The placeholder will show until you add your photo.
