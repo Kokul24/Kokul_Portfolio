@@ -2,6 +2,10 @@
 
 A modern, responsive portfolio website built with React, featuring smooth animations and transitions using Framer Motion.
 
+## 🌐 Live Demo
+
+**[View Live Portfolio](https://kokul-portfolio.vercel.app)**
+
 ## 🚀 Features
 
 - **Modern Design**: Clean and professional design with a green & dark theme
