@@ -99,26 +99,7 @@ npm run build
 
 This creates an optimized production build in the `build` folder.
 
-### Deploy to GitHub Pages
 
-1. Install gh-pages:
-```bash
-npm install --save-dev gh-pages
-```
-
-2. Add to `package.json`:
-```json
-"homepage": "https://yourusername.github.io/portfolio",
-"scripts": {
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
-}
-```
-
-3. Deploy:
-```bash
-npm run deploy
-```
 
 ## 📄 License
 
