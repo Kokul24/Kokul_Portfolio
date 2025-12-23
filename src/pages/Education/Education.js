@@ -29,7 +29,7 @@ const Education = () => {
       degree: 'Bachelor of Engineering in Computer Science',
       institution: 'Amrita Vishwa Vidhyapeetham',
       period: '2023 - 2027 (Expected)',
-      grade: 'CGPA: 6.85/10',
+      grade: 'CGPA: 7.09/10',
       description: 'Currently in third year, focusing on Data Structures, Algorithms, Web Development, and Database Management Systems.',
       color: '#667eea'
     },
