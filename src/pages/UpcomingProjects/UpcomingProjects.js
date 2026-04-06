@@ -45,24 +45,6 @@ const UpcomingProjects = () => {
       ],
       timeline: 'Expected: Dec 2026',
       color: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)'
-    },
-    {
-      title: 'AI-Powered Career Development Platform',
-      description: 'A comprehensive full-stack platform built on the MERN stack designed to revolutionize how students and professionals navigate their career journey. This intelligent system serves as a personal career coach, leveraging cutting-edge Artificial Intelligence to identify skill gaps, create personalized learning pathways, and optimize job application materials for maximum success. The platform addresses the critical disconnect between academic education and industry requirements by providing data-driven insights and automated resume optimization for Applicant Tracking Systems.',
-      technologies: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'AI/ML APIs', 'Natural Language Processing'],
-      status: 'In Development',
-      icon: <FaRocket />,
-      progress: 25,
-      features: [
-        'AI Roadmap Generator with salary predictions',
-        'Skill gap analysis & visualization',
-        'ATS Resume Scorer with PDF parsing',
-        'Job description matching algorithms',
-        'Personalized learning path recommendations',
-        'Industry demand trend analysis'
-      ],
-      timeline: 'Expected: June 2025',
-      color: 'linear-gradient(135deg, #f093fb 0%, #f5576c 100%)'
     }
   ];
 

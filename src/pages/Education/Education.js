@@ -26,20 +26,20 @@ const Education = () => {
   const educationData = [
     {
       icon: <FaUniversity />,
-      degree: 'Bachelor of Engineering in Computer Science',
+      degree: "Bachelor's in Computer Science Engineering",
       institution: 'Amrita Vishwa Vidhyapeetham',
       period: '2023 - 2027 (Expected)',
       grade: 'CGPA: 7.09/10',
-      description: 'Currently in third year, focusing on Data Structures, Algorithms, Web Development, and Database Management Systems.',
+      description: 'Third-year undergraduate with strong focus on full-stack development, AI/ML-based applications, and secure software engineering practices.',
       color: '#667eea'
     },
     {
       icon: <FaSchool />,
-      degree: 'Higher Secondary Education (12th Grade)',
-      institution: 'Velammal Vidhyashram',
-      period: '2020 - 2022',
-      grade: 'Percentage: 88%',
-      description: 'Specialized in Mathematics, and Physics. Developed strong analytical and problem-solving skills.',
+      degree: 'Class 12',
+      institution: 'Velammal Vidhyashram, Surapet',
+      period: '2022',
+      grade: 'Higher Secondary',
+      description: 'Built a strong foundation in analytical thinking and problem solving, preparing for advanced engineering studies.',
       color: '#f093fb'
     }
   ];
@@ -64,7 +64,7 @@ const Education = () => {
           </h1>
           <div className="title-underline"></div>
           <p className="section-subtitle">
-            Academic journey and achievements
+            Academic background and progression
           </p>
         </motion.div>
 
@@ -169,7 +169,7 @@ const Education = () => {
             🎯
           </motion.div>
           <h3>Ready for Placements 2025</h3>
-          <p>Actively seeking opportunities to contribute and grow</p>
+          <p>Actively seeking opportunities in Full-Stack Development with AI/ML integrations</p>
         </motion.div>
       </div>
     </motion.div>

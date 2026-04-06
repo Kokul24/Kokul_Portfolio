@@ -74,12 +74,12 @@ const Home = () => {
 
           {/* Title */}
           <motion.h2 className="title" variants={itemVariants}>
-            Computer Science Student & Developer
+            Computer Science Student | Full-Stack Developer
           </motion.h2>
 
           {/* Description */}
           <motion.p className="description" variants={itemVariants}>
-            Third-year CSE student passionate about building innovative solutions and exploring cutting-edge technologies. Specializing in full-stack development with expertise in React, Flutter, and modern web technologies.
+            Third-year CSE student passionate about building scalable and secure applications. Strongly interested in Full-Stack Development with AI/ML integrations, with hands-on experience in the MERN stack, machine learning, and real-world problem solving through hackathons.
           </motion.p>
 
           {/* Social Icons */}

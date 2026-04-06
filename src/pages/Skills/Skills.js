@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaJs, FaPython, FaGitAlt, FaDatabase, FaJava } from 'react-icons/fa';
-import { SiMongodb, SiExpress, SiTailwindcss, SiFirebase, SiFlutter } from 'react-icons/si';
+import { FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaJs, FaPython, FaGitAlt, FaDatabase, FaJava, FaLaptopCode } from 'react-icons/fa';
+import { SiMongodb, SiExpress } from 'react-icons/si';
 import './Skills.css';
 
 const Skills = () => {
@@ -26,42 +26,41 @@ const Skills = () => {
 
   const skillCategories = [
     {
-      title: 'Frontend Development',
-      skills: [
-        { name: 'React', icon: <FaReact />, level: 75, color: '#61DAFB' },
-        { name: 'JavaScript', icon: <FaJs />, level: 85, color: '#F7DF1E' },
-        { name: 'HTML5', icon: <FaHtml5 />, level: 95, color: '#E34F26' },
-        { name: 'CSS3', icon: <FaCss3Alt />, level: 90, color: '#1572B6' },
-        { name: 'Tailwind CSS', icon: <SiTailwindcss />, level: 85, color: '#06B6D4' }
-      ]
-    },
-    {
-      title: 'Backend Development',
-      skills: [
-        { name: 'Node.js', icon: <FaNodeJs />, level: 80, color: '#339933' },
-        { name: 'Express', icon: <SiExpress />, level: 80, color: '#000000' },
-        { name: 'MongoDB', icon: <SiMongodb />, level: 75, color: '#47A248' },
-        { name: 'Firebase', icon: <SiFirebase />, level: 70, color: '#FFCA28' }
-      ]
-    },
-    {
-      title: 'Tools & Others',
-      skills: [
-        { name: 'Git', icon: <FaGitAlt />, level: 85, color: '#F05032' },
-        { name: 'SQL', icon: <FaDatabase />, level: 75, color: '#4479A1' }
-      ]
-    },
-    {
-      title: 'Mobile Application Development',
-      skills: [
-        { name: 'Flutter', icon: <SiFlutter />, level: 70, color: '#02569B' }
-      ]
-    },
-    {
       title: 'Programming Languages',
       skills: [
+        { name: 'Python', icon: <FaPython />, level: 90, color: '#3776AB' },
         { name: 'Java', icon: <FaJava />, level: 90, color: '#007396' },
-        { name: 'Python', icon: <FaPython />, level: 90, color: '#3776AB' }
+        { name: 'JavaScript', icon: <FaJs />, level: 85, color: '#F7DF1E' },
+        { name: 'SQL', icon: <FaDatabase />, level: 80, color: '#4479A1' }
+      ]
+    },
+    {
+      title: 'Web Development',
+      skills: [
+        { name: 'React.js', icon: <FaReact />, level: 85, color: '#61DAFB' },
+        { name: 'Node.js', icon: <FaNodeJs />, level: 80, color: '#339933' },
+        { name: 'Express.js', icon: <SiExpress />, level: 80, color: '#000000' },
+        { name: 'MongoDB', icon: <SiMongodb />, level: 80, color: '#47A248' },
+        { name: 'PostgreSQL', icon: <FaDatabase />, level: 75, color: '#336791' },
+        { name: 'HTML', icon: <FaHtml5 />, level: 95, color: '#E34F26' },
+        { name: 'CSS', icon: <FaCss3Alt />, level: 90, color: '#1572B6' }
+      ]
+    },
+    {
+      title: 'Tools & Platforms',
+      skills: [
+        { name: 'Git', icon: <FaGitAlt />, level: 85, color: '#F05032' },
+        { name: 'GitHub', icon: <FaGitAlt />, level: 85, color: '#181717' }
+      ]
+    },
+    {
+      title: 'Core Concepts',
+      skills: [
+        { name: 'Machine Learning', icon: <FaPython />, level: 80, color: '#ffb703' },
+        { name: 'DBMS', icon: <FaDatabase />, level: 80, color: '#8ecae6' },
+        { name: 'Networking', icon: <FaNodeJs />, level: 75, color: '#219ebc' },
+        { name: 'OOPS', icon: <FaJava />, level: 85, color: '#007396' },
+        { name: 'OS', icon: <FaLaptopCode />, level: 75, color: '#adb5bd' }
       ]
     }
   ];

@@ -25,31 +25,31 @@ const Projects = () => {
 
   const projects = [
     {
-      title: 'StudSync - Student Management App',
-      description: 'A comprehensive cross-platform mobile application built with Flutter that streamlines student and staff management for educational institutions. The app provides real-time access to attendance records, class schedules, staff availability, college events, and holiday information. Features an intuitive interface with Firebase backend for seamless data synchronization across devices.',
-      technologies: ['Flutter', 'Firebase', 'Dart', 'Cloud Firestore'],
+      title: 'CareerLens AI',
+      description: 'Developed an intelligent placement prediction platform using Logistic Regression with SHAP explainability to identify key factors affecting placement probability. Integrated a Random Forest model for stress and wellbeing monitoring and connected Gemini API for ATS resume analysis and personalized learning paths. Hosted backend services on AWS Elastic Beanstalk for scalable delivery.',
+      technologies: ['MERN Stack', 'Gemini API', 'Machine Learning', 'AWS Elastic Beanstalk'],
       image: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
-      liveUrl: 'https://drive.google.com/file/d/1RcVuT3FFzpmnVZ9i9zE2lDJwpjgLYp0_/view',
-      githubUrl: 'https://github.com/Kokul24/Stud-Sync',
-      features: ['Attendance Tracking', 'Period Timetables', 'Staff Availability', 'College Events Calendar', 'Holiday Management', 'Real-time Updates']
+      liveUrl: 'https://career-lens-n8ta.vercel.app/',
+      githubUrl: 'https://github.com/Kokul24/CareerLens',
+      features: ['Logistic Regression Placement Prediction', 'SHAP Explainability', 'Random Forest Stress Monitoring', 'Gemini ATS Resume Analysis', 'Personalized Learning Paths', 'AWS Deployment']
     },
     {
-      title: 'MediBot - Humanoid Medical Assistant',
-      description: 'Display interface system for a humanoid medical robot using STM32 microcontroller. Collaborated in a 19-member team (4-person display sub-team) to integrate face recognition, voice recognition, and appointment booking modules. Built the orchestration layer with Python and Flask API, hosted on Raspberry Pi for seamless inter-module communication and real-time patient interaction.',
-      technologies: ['Python', 'Flask', 'STM32', 'Raspberry Pi', 'API Integration', 'Embedded Systems'],
+      title: 'AgriTech Marketplace Platform',
+      description: 'Engineered backend services for a full-stack agricultural marketplace that connects farmers directly to retailers, removing middlemen with secure JWT authentication. Implemented multilingual support using Google Translate API for 13+ Indian languages and integrated a logistic regression decision-support module on Agnamarknet datasets for crop posting and selling-time insights.',
+      technologies: ['Node.js', 'Express.js', 'MongoDB', 'Machine Learning', 'JWT', 'Google Translate API'],
       image: 'linear-gradient(135deg, #f093fb 0%, #f5576c 100%)',
-      liveUrl: 'https://drive.google.com/drive/folders/1-O0HehGX6SSR0fnF-eXXuXOionMsvOBe?usp=sharing',
-      githubUrl: 'https://github.com/AnanthaRam-GS/MediBot-Orchestrator',
-      features: ['Face Recognition Integration', 'Voice Recognition', 'Appointment Booking System', 'Emergency Booking', 'Module Orchestration', 'Display Interface']
+      liveUrl: 'https://se-3-2.vercel.app/',
+      githubUrl: 'https://github.com/JAY-cloudbuster/SE_3-2',
+      features: ['JWT Authentication', 'Farmer-Retailer Direct Marketplace', 'Multilingual Support (13+ Languages)', 'Logistic Regression Decision Support', 'Agnamarknet Data Insights', 'Scalable Backend APIs']
     },
     {
-      title: 'NoteFreq - Secure Note Management Application',
-      description: 'Full-stack MERN application with enterprise-grade security featuring JWT authentication and bcrypt password hashing. Create, organize, and manage personal notes with a beautiful gradient card interface and smooth animations. Includes smart search modal, real-time password strength indicators, visibility toggles, and a stunning frosted glass login design. Fully responsive with user-specific data protection through secured API routes.',
-      technologies: ['MongoDB', 'Express.js', 'React.js', 'Node.js', 'JWT', 'bcrypt', 'REST API'],
+      title: 'EduHash',
+      description: 'Built a secure student fee portal aligned with NIST SP 800-63B and CIA Triad principles. Implemented AES-256-CBC encryption and RSA digital signatures with SHA-256 hashing for tamper-proof receipts. Designed low-latency authentication flows with Role-Based Access Control and Multi-Factor Authentication for secure role-wise operations.',
+      technologies: ['MERN Stack', 'Cyber Security', 'AES-256-CBC', 'RSA Signatures', 'SHA-256', 'RBAC', 'MFA'],
       image: 'linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)',
-      liveUrl: 'https://drive.google.com/file/d/19_a2Hh8-bZtZZQ_CUkiPHpK5uo1F7zxt/view?usp=sharing',
-      githubUrl: 'https://github.com/Kokul24/NoteFreq',
-      features: ['JWT Authentication', 'Bcrypt Password Hashing', 'Rich Note Management', 'Smart Search Modal', 'Password Strength Indicator', 'Real-time Toast Notifications', 'User-Specific Notes', 'Responsive Design']
+      liveUrl: 'https://github.com/Kokul24/EduHash',
+      githubUrl: 'https://github.com/Kokul24/EduHash',
+      features: ['NIST SP 800-63B Aligned Design', 'CIA Triad Security Model', 'AES-256-CBC Encryption', 'RSA + SHA-256 Tamper-proof Receipts', 'RBAC Authorization', 'MFA Authentication']
     }
   ];
 
@@ -73,7 +73,7 @@ const Projects = () => {
           </h1>
           <div className="title-underline"></div>
           <p className="section-subtitle">
-            Here are some of my recent projects showcasing my skills and passion for development
+            Selected projects focused on full-stack engineering, AI/ML integration, and application security
           </p>
         </motion.div>
 

@@ -81,26 +81,26 @@ const About = () => {
               className="about-description"
               variants={itemVariants}
             >
-              I'm currently in my third year of Computer Science Engineering, actively preparing 
-              for placements and building innovative projects that solve real-world problems.
+              I'm currently in my third year of Computer Science Engineering and actively building 
+              impactful, real-world applications with a focus on scalability, security, and practical innovation.
             </motion.p>
 
             <motion.p
               className="about-description"
               variants={itemVariants}
             >
-              My journey in tech has been driven by curiosity and a desire to create meaningful 
-              applications. I specialize in full-stack development, with a strong focus on modern 
-              web technologies and best practices.
+              My core interest is Full-Stack Development with AI/ML integrations. I enjoy combining 
+              modern web technologies with machine learning models and LLM-based features to build 
+              data-driven products that solve meaningful user problems.
             </motion.p>
 
             <motion.p
               className="about-description"
               variants={itemVariants}
             >
-              I believe in continuous learning and staying updated with the latest industry trends. 
-              When I'm not coding, you'll find me exploring new technologies, contributing to 
-              open-source projects, or working on personal projects that challenge my skills.
+              I've participated in hackathons including Build2Break Hackathon and the Google Gemini 
+              Hackathon by Devpost, and I continuously explore new tools and frameworks to stay 
+              aligned with industry demands.
             </motion.p>
 
             <motion.div className="stats" variants={itemVariants}>
