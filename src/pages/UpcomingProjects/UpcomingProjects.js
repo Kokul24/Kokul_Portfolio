@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FaClock, FaLightbulb, FaRocket } from 'react-icons/fa';
+import { FaClock, FaRocket } from 'react-icons/fa';
 import './UpcomingProjects.css';
 
 const UpcomingProjects = () => {

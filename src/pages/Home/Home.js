@@ -33,24 +33,6 @@ const Home = () => {
     }
   };
 
-  const logoVariants = {
-    animate: {
-      rotate: [0, 360],
-      scale: [1, 1.05, 1],
-      boxShadow: [
-        '0 0 20px rgba(0, 255, 136, 0.3)',
-        '0 0 40px rgba(0, 255, 136, 0.6)',
-        '0 0 20px rgba(0, 255, 136, 0.3)'
-      ],
-      transition: {
-        duration: 4,
-        ease: 'easeInOut',
-        repeat: Infinity,
-        repeatDelay: 1
-      }
-    }
-  };
-
   return (
     <motion.div
       className="home page-transition"
